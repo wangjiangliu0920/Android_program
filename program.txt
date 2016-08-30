@@ -3,3 +3,7 @@ Main()
 	print "hello word"
 	print "jia ru"
 }
+metho()
+{
+  print "my name is Ð¡»ÆÅ£"
+}
