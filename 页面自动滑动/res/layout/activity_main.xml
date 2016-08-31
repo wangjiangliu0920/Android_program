@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="com.itheima.auto_scroll.MainActivity" >
+	<android.support.v4.view.ViewPager
+	    android:layout_width="match_parent"
+	    android:layout_height="200dp"
+	    android:id="@+id/view_pager">
+	    </android.support.v4.view.ViewPager>
+	 <LinearLayout 
+	     android:layout_alignBottom="@id/view_pager"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:background="#77000000"
+	     android:padding="8dp"
+	     android:orientation="vertical"
+	     >
+	     <TextView 
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center_horizontal"
+	         android:text="我是文本"
+	         android:textColor="#ffffff"
+	         android:textSize="16sp"
+	         android:singleLine="true"
+	         android:ellipsize="end"
+	         android:id="@+id/tv_intro"
+	         />
+	     <LinearLayout 
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_marginTop="3dp"
+	         android:layout_gravity="center_horizontal"
+	         android:id="@+id/layout_dot"
+	         android:orientation="horizontal"
+	         ></LinearLayout>
+	 </LinearLayout>
+
+</RelativeLayout>
